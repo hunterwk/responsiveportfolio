@@ -1,0 +1,46 @@
+body {
+    background-image: url(./Assets/Images/texture-2389190_960_720.jpg);
+}
+
+.navbar-brand {
+    background-color: mediumaquamarine;
+}
+
+#change {
+    color: white;
+}
+
+main {
+    background-color: white;
+    max-width: 60%;
+    float: left;
+    margin: 30px 10px 30px 10px;
+    padding: 10px;
+}
+h2 {
+    color: mediumaquamarine;
+}
+#hunter-kantner {
+    max-height: 12rem;
+    max-width: 12rem;
+    float: left;
+}
+
+footer {
+    color: white;
+    
+}
+
+@media screen and (max-width: 400px) {
+    main {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
