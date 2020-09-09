@@ -2,6 +2,15 @@ body {
     background-image: url(./Assets/Images/texture-2389190_960_720.jpg);
 }
 
+.main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .navbar-brand {
     background-color: mediumaquamarine;
 }
@@ -10,37 +19,11 @@ body {
     color: white;
 }
 
-main {
-    background-color: white;
-    max-width: 60%;
-    float: left;
-    margin: 30px 10px 30px 10px;
-    padding: 10px;
-}
-h2 {
+h1 {
     color: mediumaquamarine;
-}
-#hunter-kantner {
-    max-height: 12rem;
-    max-width: 12rem;
-    float: left;
 }
 
 footer {
-    color: white;
-    
-}
-
-@media screen and (max-width: 400px) {
-    main {
-        max-width: 90%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 992px) {
-
+    background-color: gray;
+    border-top: mediumaquamarine 5px solid;
 }
