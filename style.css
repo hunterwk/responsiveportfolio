@@ -1,7 +1,10 @@
 
 
+
+
 body {
     background-image: url(./Assets/Images/texture-2389190_960_720.jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif
 } 
 
 /*.main {
@@ -23,7 +26,7 @@ body {
     padding: 10px;
 } */
 
-/*footer {
-    background-color: gray;
-    border-top: teal 5px solid; 
-}*/
+footer {
+    border-top: 5px solid!important;
+    
+}
