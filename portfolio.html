@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
 	<meta charset="UTF-8">
@@ -10,9 +10,9 @@
 	<title>Portfolio</title>
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" id="change" href="#">Hunter Kantner</a>
+		<a class="navbar-brand bg-info text-white" href="index.html">Hunter Kantner</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
 			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -31,45 +31,52 @@
 			</ul>
 		</div>
 	</nav>
-	<main class="main">
+	<!-- I don't know what I did wrong but I just spent 3 hours trying to get my-auto to work instead of my-5, but even though my code is identical on all the other pages this one refuses to work.  I cannot access a tutor and have given up.-->
+	<main class="container-fluid main flex-shrink-0 my-5 py-3">
 		<div class="row">
-			<div class="col-sm-12 col-md-8 col-lg-8">
+			<div class="col-sm-12 col-md-9">
 				<div class="card">
 					<div class="card-body">
-						<h1 class="card-title">Portfolio</h1>
+						<h1 class="card-title text-info">Portfolio</h1>
 						<hr>
 						<div class="row">
 							<div class="col-sm-12 col-md-10 col-lg-6">
-								<img class="img-fluid py-3 mx-auto d-block" src="https://via.placeholder.com/350" alt="placeholder">
+								<img class="img-fluid py-3 mx-auto d-block" src="https://via.placeholder.com/350"
+									alt="placeholder">
 							</div>
 							<div class="col-sm-12 col-md-10 col-lg-6">
-								<img class="img-fluid py-3 mx-auto d-block" src="https://via.placeholder.com/350" alt="placeholder">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12 col-md-10 col-lg-6">
-								<img class="img-fluid py-3 mx-auto d-block" src="https://via.placeholder.com/350" alt="placeholder">
-							</div>
-							<div class="col-sm-12 col-md-10 col-lg-6">
-								<img class="img-fluid py-3 mx-auto d-block" src="https://via.placeholder.com/350" alt="placeholder">
+								<img class="img-fluid py-3 mx-auto d-block" src="https://via.placeholder.com/350"
+									alt="placeholder">
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-sm-12 col-md-10 col-lg-6">
-								<img class="img-fluid py-3 mx-auto d-block" src="https://via.placeholder.com/350" alt="placeholder">
+								<img class="img-fluid py-3 mx-auto d-block" src="https://via.placeholder.com/350"
+									alt="placeholder">
+							</div>
+							<div class="col-sm-12 col-md-10 col-lg-6">
+								<img class="img-fluid py-3 mx-auto d-block" src="https://via.placeholder.com/350"
+									alt="placeholder">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-10 col-lg-6">
+								<img class="img-fluid py-3 mx-auto d-block" src="https://via.placeholder.com/350"
+									alt="placeholder">
 							</div>
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</main>
-
-	<footer class="footer mt-auto py-3 sticky-bottom text-center" >
-        <div class="container">
-            <span class="text-muted">Copyright.</span>
-        </div>
-    </footer>
+<!-- mt-auto also does not work here-->
+	<footer class="footer mt-5 py-3 text-center bg-dark border-info">
+		<div class="container">
+			<span class="text-muted">Copyright.</span>
+		</div>
+	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

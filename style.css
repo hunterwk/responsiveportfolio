@@ -1,5 +1,6 @@
 
-
+/*These are the only extra css lines needed to achieve the results of the homework.
+There is currently no option to increase border size via bootstrap */
 
 
 body {
@@ -7,26 +8,6 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif
 } 
 
-/*.main {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 1%;
-    margin-right: 1%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-} */
-
-
-
-/* #submit1 {
-    color: white;
-    background-color: teal;
-    border-radius: 0;
-    border: 10px teal solid;
-    padding: 10px;
-} */
-
 footer {
     border-top: 5px solid!important;
-    
 }
